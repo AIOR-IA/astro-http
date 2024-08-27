@@ -1,8 +1,6 @@
 
 import type { APIRoute } from 'astro';
 import { getCollection, getEntry } from 'astro:content';
-import { URL } from 'url';
-
 export const prerender = false;
 
 export const GET: APIRoute = async ({ params, request }) => {
